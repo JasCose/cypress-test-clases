@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 
-import { MainPage } from "../page-objects/spec-main-page";
-import { LoginPage } from "../page-objects/spec-ogin-page";
+import { MainPage } from "../page-objects/main-page";
+import { LoginPage } from "../page-objects/login-page";
 
 describe('Pruebas de login', () => {
 
