@@ -10,4 +10,8 @@ export class MainPage {
         cy.get(':nth-child(21) > a').click();
     }
 
+    clickShiftingContent(){
+        cy.contains('Shifting Content').click()
+    }
+
 }

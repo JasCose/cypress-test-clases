@@ -1,8 +1,8 @@
 /// <reference types="cypress" />
 
-export class ShiftingContent {
+export class ShiftingContentPage {
 
-    clickShiftingContent(){
-        cy.contains('Shifting Content').click()
+    clickMenuElement(){
+        cy.contains('Example 1: Menu Element').click()
     }
 }
