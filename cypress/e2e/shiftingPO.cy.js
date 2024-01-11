@@ -8,7 +8,7 @@ describe('Pruebas de login', () => {
 
     const mainPage = new MainPage();
     const shiftingContent = new ShiftingContent();
-    const ShiftingContentMenuElement = new ShiftingContentMenuElement();
+    const shiftingContentMenuElement = new ShiftingContentMenuElement();
 
     beforeEach(() => {
         mainPage.visitMainPage();
@@ -16,7 +16,7 @@ describe('Pruebas de login', () => {
     
     it('login con usuario y contraseña válidos', () => {
         shiftingContent.clickShiftingContent()
-        ShiftingContentMenuElement.ShiftingContentMenuElement()
+        shiftingContentMenuElement.clickMenuElement()
         cy.get('li').should('have.length', 5);
     });
 
