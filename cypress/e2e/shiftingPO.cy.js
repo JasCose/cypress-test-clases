@@ -14,7 +14,7 @@ describe('Shifting tests', () => {
         mainPage.visitMainPage();
     });
     
-    it('login con usuario y contraseña válidos', () => {
+    it('Check lenght table', () => {
         mainPage.clickShiftingContent()
         shiftingContentPage.clickMenuElement()
         shiftingContentMenuElement.verifyLengthTable()
